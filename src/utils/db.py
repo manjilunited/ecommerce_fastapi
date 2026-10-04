@@ -2,9 +2,9 @@ from fastapi import Query
 from typing import Annotated
 from fastapi import Depends 
 from sqlmodel import SQLModel, create_engine, Session, select 
-from sqlmodel import SQLModel 
 
-DATABASE_URL='mysql+pymysql://root:@localhost:3306/ecommerce_project'
+
+DATABASE_URL='mysql+pymysql://root:manjil123@localhost:3306/ecommerceproject'
 
 engine = create_engine(DATABASE_URL)
 
